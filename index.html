@@ -13,12 +13,12 @@
      3. Isi variabel di bawah ini:
      ========================================================== */
   var DB_CONFIG = {
-    owner: 'USERNAME_GITHUB_KAMU',       // Ganti dengan username GitHub
-    repo: 'NAMA_REPOSITORY_KAMU',        // Ganti dengan nama repo
-    token: 'GANTI_DENGAN_TOKEN_KAMU',    // Ganti dengan Personal Access Token
-    branch: 'main',                      // Biasanya 'main' atau 'master'
-    file: 'db.json'                      // Nama file database
-  };
+  owner: 'username-kamu',      // databasekonveksi
+  repo: 'repo-kamu',           // ecosportokutimur-blip/databasekonveksi
+  branch: 'main',              // 'main'
+  file: 'db.json',
+  token: ''                    // Kosongkan dulu
+};
   /* ========================================================== */
 
   var API_URL = 'https://api.github.com/repos/' + DB_CONFIG.owner + '/' + DB_CONFIG.repo + '/contents/' + DB_CONFIG.file;
